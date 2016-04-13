@@ -1,0 +1,23 @@
+{
+  "context": "client",
+  "identifier": "com.poland.earth",
+  "display_name": "Poland's Incredible Earth Map",
+  "description": "The one and only Earth recreation in Planetary Annihilation. Huge, mostly accurate Earth map. Map by Poland, put on PAMM by Stuart98.",
+  "author": "Poland",
+  "version": "1.1",
+  "build": "89755",
+  "date": "2016/04/13",
+  "signature": "not yet implemented",
+  "icon": "http://i.imgur.com/uRZz6Mw.jpg",
+  "category": [
+	  "map"
+    ],
+    "load_planet": [
+        "coui://ui/mods/polandsearthmap/maplist.js"
+    ],
+	"priority": 100,
+    "enabled": true,
+    "dependencies": [
+        "com.pa.conundrum.cShareSystems"
+    ]
+}
